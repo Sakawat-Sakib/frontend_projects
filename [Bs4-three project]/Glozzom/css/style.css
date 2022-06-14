@@ -1,0 +1,159 @@
+
+
+.navbar
+{
+	background-color: #000;
+	box-shadow: 2px 2px 5px #329286;
+	
+}
+.navbar .nav-item
+{
+	padding-right:1em;
+}
+.navbar .nav-item:last-child
+{
+	padding-right: 0;
+}
+.navbar .nav-item .nav-link
+{
+	text-transform: uppercase;
+}
+
+
+.carousel-item
+{
+	height: 450px;
+}
+.carousel-img-1
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/bg1.png);
+	background-position: bottom;
+	background-size: cover;
+}
+.carousel-img-2
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/bg2.png);
+	background-position: center;
+	background-size: cover;
+}
+.carousel-img-3
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/bg3.png);
+	background-position: bottom ;
+	background-size: cover;
+}
+
+
+
+#homeicon .fa
+{
+	font-size: 40px;
+}
+
+
+#start
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/gal2.png);
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#video
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/bg4.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#video .fa
+{
+	font-size: 50px;
+	color: red;
+}
+
+
+
+#gallery img
+{
+	height: 200px;
+	width: 100%;
+}
+
+/*---ABOUT PAGE START--*/
+/*---ABOUT PAGE START--*/
+/*---ABOUT PAGE START--*/
+/*---ABOUT PAGE START--*/
+
+#headsection
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.5)), url(../img/gal3.png);
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#what img
+{
+	width: 350px;
+	height: 350px;
+}
+
+
+#idbox .fa
+{
+	font-size: 50px;
+}
+
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before
+{
+	color: #000;
+}
+
+
+
+#serve
+{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/image1.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#blogger
+{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/image3.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#cont
+{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/image1.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media(max-width:480px)
+{
+	.carousel h2
+	{
+		font-size: 2.5rem;
+	}
+}
+
+@media(max-width:380px)
+{
+	.carousel h2
+	{
+		font-size: 2.0rem;
+	}
+}

@@ -1,0 +1,79 @@
+@media screen and (max-width: 970px)
+{
+	.left-area
+	{
+		float: none;
+		width: 100%;
+	}
+	.right-area
+	{
+		float: none;
+		width: 100%;
+	}
+
+}
+@media screen and (max-width:800px )
+{
+	.logo-area
+	{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.login-area
+	{
+	width:405px;
+	float: none;
+	margin:10px auto; 
+	}
+	.login-area form
+	{
+		float: none;
+	}
+	
+}
+@media screen and (max-width: 600px)
+{
+	.login-area
+	{
+		width: 100%;
+	}
+	.login-area .email,
+.login-area .password,
+.login-area .login
+{
+	float: none;
+	
+	margin-right: 0px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]
+{
+	width: 100%;
+	box-sizing: border-box;
+}
+}
+@media screen and (max-width: 480px)
+{
+	.first-name
+	{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+	.surname
+	{
+		float: none;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 300px)
+{
+.container
+{
+	width: 90%;
+}
+
+}
+
